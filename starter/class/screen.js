@@ -104,9 +104,6 @@ class Screen {
     Screen.commands[key] = new Command(key, description, action);
   }
 
-
-
-
   static setQuitMessage(quitMessage) {
     Screen.quitMessage = quitMessage;
   }

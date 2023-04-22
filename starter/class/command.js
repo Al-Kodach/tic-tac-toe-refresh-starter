@@ -8,6 +8,7 @@ class Command {
 
   execute() {
     this.action();
+    console.log(this.description);
   }
 
 }
